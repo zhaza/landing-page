@@ -1,7 +1,76 @@
 nav {
-    background-color: blue;
+    background-color: #1f2937;
+    position: sticky;
+    top: 0px;
 }
 
-h1 {
-    background-color: blue;
+.crumb {
+    color: #F9FAF8;
+    list-style: none;
+    display: inline-flex;
+    text-align: right;
+}
+
+#hero {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: block;
+}
+
+#hero button {
+    background-color: #3882f6;
+    border-radius: 15%;
+}
+
+.contain1 {
+    display: inline-block;
+    border: 20px;
+}
+
+.contain2 {
+    display: inline;
+    justify-content: flex-end;
+}
+
+img {
+    display: inline-flex;
+    max-width: 20%;
+    height: auto;
+    border-color: 5px #3882f6;
+    margin: 20px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+#list {
+    display: inline;
+    list-style: none;
+}
+
+#sonic {
+    max-width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    background-color: #E5E7EB;
+    color: #1f1f1f;
+}
+
+h3 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+}
+
+h3 button  {
+    background-color: #3882f6;
+    border-radius: 15%;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
