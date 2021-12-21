@@ -26,6 +26,7 @@
     border-style: hidden;
     border-radius: 15%;
     color: white;
+    padding: 2px 10px;
 }
 
 .contain1 {
@@ -33,35 +34,35 @@
     border: 20px;
 }
 
-#food {
-    display: inline-flex;
-    flex-flow: row wrap;
-    max-width: 100%;
-    justify-content: space-around;
-}
-.contain3 {
-    width: 25%;
-}
-
 .contain2 img {
     max-width: 25%;
     height: auto;
 }
 
+#food {
+    display: inline-flex;
+}
+
+.contain3 {
+    max-width: 100%;
+    margin-left: 100px;
+}
+
 .contain3 img {
     border: 5px solid #3882f6;
-    max-width: 25%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
+    max-width: 50%;
+    height: auto;
 }
 
 .quote {
-    display: block;
     background-color: #E5E7EB;
     color: #1f1f1f;
     text-align: center;
-    padding: 50px;
+    padding: 5px;
+}
+
+.quote p {
+    font-weight: bold;
 }
 
 .bottomsign {
@@ -70,7 +71,11 @@
     background-color: #3882f6;
     color: #F9FAF8;
     justify-content: center;
-    margin: 20px;
+    margin: 25px 100px;
+}
+
+.action {
+    margin-left: 40px;
 }
 
 .bottomsign button  {
@@ -78,8 +83,9 @@
     border: 2px solid white;
     border-radius: 15%;
     color: white;
-    justify-content: center;
-    align-content: center;
+    margin-top: 35px;
+    margin-left: 300px;
+    padding: 2px 10px;
 }
 
 footer {
